@@ -1,27 +1,25 @@
-<header class="header-area">
-   {% include navbar.html %}
 
-    <div id="home" class="header-content-area bg_cover d-flex align-items-center"
-        style="background-image: url(/assets/images/header-bg.jpg)">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div data-countdown="{{ site.data[page.year].about.header_countdown }}"></div>
-                    <div class="header-content text-center">
-                        <h2 class="header-title">{{
-                        site.data[page.year].about.header_title }}</h2>
-                        <h3 class="sub-title">{{site.data[page.year].about.header_subtitle }}</a></h3>
-                        <h3 class="sub-title text-center">Organized by</h3>
-                        <h3 class="sub-title"><a
-                        href="https://www.meetup.com/Microsoft-Azure-Bangalore/"
-                        target="_blank">{{ site.data[page.year].about.organizer }}</a></h3>
-                        <ul class="header-btn">
-                            <li><a class="main-btn main-btn-2" href="#tickets">Register Now</a></li>
-                            <li><a class="main-btn " href="#about">Learn More</a></li>
-                        </ul>
-                    </div> <!-- header content -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </div> <!-- header content -->
+<header class="header-area"> 
+    {% include navbar.html %}
+
+    <div id="home" class="header-content-area bg_cover ">
+        <img src="assets/images/Banner.jpg" class="w-100">
+        <!-- <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-lg-10">
+
+        <div class="header-content text-center">
+        <h2 class="header-title">Azure Community <br/>Conference</h2> -->
+        <!-- <h3 class="sub-title">24-26 November, 2020</h3> -->
+        <!-- <h3 class="sub-title">Azure Community Developer Conference <br/>Organized by</h3>
+        <h3 class="sub-title"><a href="https://www.meetup.com/Microsoft-Azure-Bangalore/" target="_blank">Bangalore Azure User Group Community</a></h3> -->
+        <!-- <ul class="header-btn">
+        <li><a class="main-btn main-btn-2" href="#tickets">Register Now</a></li>
+
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div> -->
+    </div>
 </header>
