@@ -20,10 +20,10 @@
  ========================================================================== */
     jQuery('#clock').countdown('2020/11/24', function (event) {
         var $this = jQuery(this).html(event.strftime(''
-            + '<div class="time-entry days"><span>%-D</span> Days</div> '
-            + '<div class="time-entry hours"><span>%H</span> Hours</div> '
-            + '<div class="time-entry minutes"><span>%M</span> Minutes</div> '
-            + '<div class="time-entry seconds"><span>%S</span> Seconds</div> '));
+            + '<div class="time-entry days"><span>%-D</span><b>:</b> Days</div> '
+            + '<div class="time-entry hours"><span>%H</span> <b>:</b>Hours</div> '
+            + '<div class="time-entry minutes"><span>%M</span><b>:</b> Minutes</div> '
+            + '<div class="time-entry seconds"><span>%S</span>Seconds</div> '));
     });
 
     var scrollLink = $('.page-scroll');
@@ -41,6 +41,29 @@
             }
         });
     });
+
+
+
+
+
+    //var pagescrollmenu = $('.page-scroll_menu');
+    //// Active link switching
+    //$(window).scroll(function () {
+
+    //    if ($('#navbarlogo').hasClass('navbar-area navbar-two sticky')) {
+    //        $('#lion_image').show();
+    //        $("#navbarTwo").removeClass("overridenav");
+    //        $("#navbarTwo").addClass("overridenavcol");
+
+    //    } else {
+    //        $('#lion_image').hide();
+    //        $("#navbarTwo").removeClass("overridenavcol");
+    //        $("#navbarTwo").addClass("overridenav");
+    //    }
+
+    //});
+
+
 
     jQuery('.vol-slider').slick({
 
@@ -188,5 +211,4 @@
 
     });
 </script>
-
 
