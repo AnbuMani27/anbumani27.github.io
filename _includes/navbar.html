@@ -16,22 +16,7 @@
         padding-left: 40% !important;
     }
 </style>
-
-<script>
-    window.onscroll = function (e) {
-        if ($('#navbarlogo').hasClass('navbar-area navbar-two sticky')) {
-            $('#lion_image').show();
-            $("#navbarTwo").removeClass("overridenav");
-            $("#navbarTwo").addClass("overridenavcol");
-             
-        } else {
-            $('#lion_image').hide();
-            $("#navbarTwo").removeClass("overridenavcol");
-            $("#navbarTwo").addClass("overridenav"); 
-        }
-    };
-
-</script>
+ 
 <div id="navbarlogo" class="navbar-area navbar-two">
 
     <div class="container">
@@ -56,20 +41,20 @@
                     <div class="collapse navbar-collapse sub-menu-bar overridenav" id="navbarTwo">
                         <ul class="navbar-nav m-auto">
                             <li class="nav-item">
-                                <a href="/#home">Home</a>
+                                <a class="page-scroll_menu" href="/#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#about">About</a>
+                                <a class="page-scroll_menu" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/#Agenda">Agenda</a>
+                                <a class="page-scroll_menu" href="/#Agenda">Agenda</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/#speakers">Speakers</a>
+                                <a class="page-scroll_menu" href="/#speakers">Speakers</a>
                             </li>
 
                             <li class="nav-item has-children">
-                                <a class="" href="#">More</a>
+                                <a class="page-scroll_menu" href="#">More</a>
                                 <ul class="sub-menu">
                                     <li class=""><a href="code-of-conduct.html">Code of Conduct</a></li>
                                     <li class=""><a href="call-for-speakers.html">Call for Speakers</a></li>
