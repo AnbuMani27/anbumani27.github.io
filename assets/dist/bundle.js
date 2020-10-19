@@ -141,15 +141,42 @@ $(function () {
         $(".navbar-collapse").removeClass("show");
     });
 
-    $(window).on('scroll', function (event) { 
+
+    window.addEventListener('load', (event) => {
+      
+        var currentLocation = window.location;
+         
+        if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/"))) {
+            $('#lion_image').show();
+            $("#navbarTwo").removeClass("overridenav");
+            $("#navbarTwo").addClass("overridenavcol");
+        }
+        else {
+            $('#lion_image').hide();
+            $("#navbarTwo").removeClass("overridenavcol");
+            $("#navbarTwo").addClass("overridenav");
+        }
+     
+    });
+
+    $(window).on('scroll', function (event) {
+       
         if ($('#navbarlogo').hasClass('navbar-area navbar-two sticky')) {
             $('#lion_image').show();
             $("#navbarTwo").removeClass("overridenav");
             $("#navbarTwo").addClass("overridenavcol");
-        } else {
-            $('#lion_image').hide();
-            $("#navbarTwo").removeClass("overridenavcol");
-            $("#navbarTwo").addClass("overridenav");
+        } else { 
+            var currentLocation = window.location; 
+            if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/"))) {
+                $('#lion_image').show();
+                $("#navbarTwo").removeClass("overridenav");
+                $("#navbarTwo").addClass("overridenavcol");
+            }
+            else {
+                $('#lion_image').hide();
+                $("#navbarTwo").removeClass("overridenavcol");
+                $("#navbarTwo").addClass("overridenav");
+            }
         }
     });
 

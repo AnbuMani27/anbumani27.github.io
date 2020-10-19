@@ -18134,7 +18134,7 @@ a.text-dark:focus, a.text-dark:hover {
         .main-btn.main-btn-2 {
             background: -webkit-linear-gradient(left, #102baf 0%, #1664ff 50%, #102baf 100%);
             background: -o-linear-gradient(left, #102baf 0%, #1664ff 50%, #102baf 100%);
-            background: linear-gradient(to right, #102baf 0%, #1664ff 50%, #102baf 100%);
+            background: linear-gradient(to right, #00497f 0%, #0175cd 50%, #014980 100%);
             background-size: 200% auto;
             color: #fff;
             background-position: left center;
@@ -20445,29 +20445,29 @@ a.text-dark:focus, a.text-dark:hover {
 
 
     /*===== BACK TO TOP =====*/
-    .back-to-top {
-        font-size: 20px;
-        color: #fff;
-        position: fixed;
-        right: 20px;
-        bottom: 20px;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        border-radius: 50%;
-        background: -webkit-linear-gradient(left, #102baf 0%, #1664ff 50%, #102baf 100%);
-        background: -o-linear-gradient(left, #102baf 0%, #1664ff 50%, #102baf 100%);
-        background: linear-gradient(to right, #102baf 0%, #1664ff 50%, #102baf 100%);
-        background-size: 200% auto;
-        text-align: center;
-        z-index: 99;
-        -webkit-transition: all 0.3s ease-out 0s;
-        -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-        -o-transition: all 0.3s ease-out 0s;
-        transition: all 0.3s ease-out 0s;
-        display: none;
-    }
+.back-to-top {
+    font-size: 20px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(left, #102baf 0%, #1664ff 50%, #102baf 100%);
+    background: -o-linear-gradient(left, #102baf 0%, #1664ff 50%, #102baf 100%);
+    background: linear-gradient(to right, #00497f 0%, #1664ff 50%, #004980 100%);
+    background-size: 200% auto;
+    text-align: center;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: none;
+}
 
         .back-to-top:hover {
             color: #fff;
